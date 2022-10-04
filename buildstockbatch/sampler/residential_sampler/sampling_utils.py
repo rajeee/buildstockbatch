@@ -9,7 +9,7 @@ import multiprocessing
 import random
 from collections import Counter, defaultdict
 from typing import Union, TypedDict
-random.seed(42)
+random.seed()
 
 
 TSVTuple = tuple[dict[tuple[str, ...], list[float]], list[str], list[str]]
